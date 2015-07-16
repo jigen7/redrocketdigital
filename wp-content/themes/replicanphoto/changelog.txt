@@ -1,0 +1,23 @@
+== Changelog ==
+
+= Theme Name Replican Theme=
+
+= Version 1.1 =
+1. Slider Shortcode not working issue fixed. Helop added to themeoption panel as well as readme.txt file.
+
+= Version 1.1 =
+1. Removed all notices and errors.
+2. Background now fully customizable, options used instead of hardcoding.
+3. Fixed issue : Drop-down menu, second level is collapsed.
+4. Tracking Code is removed.
+5. Fixed issue : Template Header Background Image is not working.
+6. Fixed isssue : Theme options > Slider settings. Now user can upload multiple images through shortcode.
+7. Theme options > SEO options is removed.
+8. Fixed issue : Text boxes, like footer text should not allowed scripts and unfiltered html try to insert.
+9. Home page, welcome message hardcoded link removed.
+10. Fixed issue : First to theme name and authour url, Second url "Powered by WordPress" pointing to http://wordpress.org
+11. Added readme.txt file with all the details like license, copyright.
+12. Comment turned on.
+
+= Version 1.0 =
+  Replican Theme is created on 01-03-2014.

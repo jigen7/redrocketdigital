@@ -1,0 +1,35 @@
+<?php
+define('DAILY_ARCHVIES', __('Daily Archives', 'replican'));
+define('MONTHLY_ARCHIVES', __('Monthly Archives', 'replican'));
+define('YEARLY_ARCHIVES', __('Yearly Archives', 'replican'));
+define('BLOG_ARCHIVES', __('Blog Archives', 'replican'));
+define('OLDER_POSTS', __('&larr; Older Posts', 'replican'));
+define('NEWER_POSTS', __('Newer posts &rarr;', 'replican'));
+define('RETURN_TO_PREVIUS', __('Return to %s', 'replican'));
+define('BY_AUTHOR', __('By %2$s', 'replican'));
+define('VIEW_ALL_POST_BY', __('View all posts by %s', 'replican'));
+define('PUBLISHED_BY_AUTHOR', __('Published %2$s', 'replican'));
+define('FULL_SIZE_IS_PIXEL', __('Full size is %s pixels', 'replican'));
+define('LINK_TO_FULL_SIZE', __('Link to full-size image', 'replican'));
+define('EDIT', __('Edit', 'replican'));
+define('BOOKMARK_THE', __('Bookmark the', 'replican'));
+define('PERMALINK', __('&nbsp;permalink', 'replican'));
+define('PAGES_COLON', __('Pages:', 'replican'));
+define('AUTHOR_ARCHIVES', __('Author Archives: %s', 'replican'));
+define('ABOUT_AUTHOR', __('About %s', 'replican'));
+define('HOME', __('Home', 'replican'));
+define('SORRY_NO_POST_MATCHED_YOUR_CRETERIA', __('Sorry no post matched your criteria', 'replican'));
+define('PRIMARY_WIDGET', __('Primary Widget Area', 'replican'));
+define('THE_PRIMARY_WIDGET', __('The primary widget area', 'replican'));
+define('SECONDRY_WIDGET', __('Secondary Widget Area', 'replican'));
+define('THE_SECONDRY_WIDGET', __('The secondary widget area', 'replican'));
+define('FIRST_FOOTER_WIDGET', __('First Footer Widget Area', 'replican'));
+define('THE_FIRST_FOOTER_WIDGET', __('The first footer widget area', 'replican'));
+define('SECONDRY_FOOTER_WIDGET', __('Second Footer Widget Area', 'replican'));
+define('THE_SECONDRY_FOOTER_WIDGET', __('The second footer widget area', 'replican'));
+define('THIRD_FOOTER_WIDGET', __('Third Footer Widget Area', 'replican'));
+define('THE_THIRD_FOOTER_WIDGET', __('The third footer widget area', 'replican'));
+define('FOURTH_FOOTER_WIDGET', __('Fourth Footer Widget Area', 'replican'));
+define('THE_FOURTH_FOOTER_WIDGET', __('The fourth footer widget area', 'replican'));
+define('MAIN_MENU', __('Main Menu', 'replican'));
+?>
