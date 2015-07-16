@@ -7,7 +7,8 @@
  */
 
 (function(){
-	
+
+
 	/* Private variables */
 	
 	var overlay = $('<div id="galleryOverlay">'),
@@ -28,7 +29,8 @@
 		// Appending the markup to the page
 		overlay.hide().appendTo('body');
 		slider.appendTo(overlay);
-		
+
+
 		// Creating a placeholder for each image
 		items.each(function(){
 			placeholders = placeholders.add($('<div class="placeholder">'));
@@ -40,8 +42,17 @@
 				hideOverlay();
 			}
 		});
-		
-		// Listen for touch events on the body and check if they
+
+        slider.on('mouseenter','img',function() {
+            $(this).attr('src',$(this).attr('src').replace('before','after'));
+        });
+
+        slider.on('mouseleave','img',function() {
+            $(this).attr('src',$(this).attr('src').replace('after','before'));
+        });
+
+
+        // Listen for touch events on the body and check if they
 		// originated in #gallerySlider img - the images in the slider.
 		$('body').on('touchstart', '#gallerySlider img', function(e){
 			
@@ -65,12 +76,14 @@
 				}
 			});
 
-			// Return false to prevent image 
+			// Return false to prevent image
 			// highlighting on Android
 			return false;
 			
 		}).on('touchend',function(){
 			slider.off('touchmove');
+
+
 		});
 		
 		// Listening for clicks on the thumbnails
@@ -80,7 +93,6 @@
 			
 			// Find the position of this image
 			// in the collection
-			
 			index = items.index(this);
 			showOverlay(index);
 			showImage(index);
@@ -90,6 +102,7 @@
 			
 			// Preload the previous
 			preload(index-1);
+
 			
 		});
 		
@@ -120,8 +133,11 @@
 			}
 	
 		});
-		
-		
+
+
+
+
+
 		/* Private functions */
 		
 	
@@ -191,9 +207,12 @@
 			var img = $('<img>').on('load', function(){
 				callback.call(img);
 			});
-			
-			img.attr('src',src);
-		}
+
+
+            img.attr('src',src); //default code of the original plugin
+
+        }//end loadImage
+
 		
 		function showNext(){
 			
@@ -230,6 +249,10 @@
 				},500);
 			}
 		}
+
+
+
 	};
-	
+
+
 })(jQuery);

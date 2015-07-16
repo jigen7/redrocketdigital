@@ -56,87 +56,183 @@
                     <div class="tabs_holder">
                         <br>
                         <ul>
-                            <li class="tab_selected"><a href="#your-tab-id-1">Basic Photoshop</a></li>
-                            <li><a href="#your-tab-id-2">Digital Painting</a></li>
+                            <li class="tab_selected"><a href="#your-tab-id-1">Services Details</a></li>
+                            <li><a href="#your-tab-id-2">Basic Photoshop</a></li>
+                            <li><a href="#your-tab-id-3">Digital Painting</a></li>
                         </ul>
                         <div class="content_holder">
                             <div id="your-tab-id-1">
+                                <p>
+                                - Restoration<br>
+                                - Colorization<br>
+                                - Editing<br>
+                                - Retouching<br>
+                                - Photo Manipulation<br>
+                                - Background Replacement / Removal<br>
+                                - Photo Enhancement<br>
+                                - Cropping and Resizing<br>
+                                - Photo Cleanup<br>
+                                - Brighten, Lighten, Darken, Sharpen<br>
+                                - Remove unwanted objects<br>
+                                </p>
+                            </div><!-- your-tab-id-3 -->
+                            <div id="your-tab-id-2">
                                <div class="txt-1"> ** Hover to Image to show After Effects </div>
 
                                 <?php $url = home_url();?>
 
-                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/1.after.jpg">
-                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/1.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/1.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/1.after-th.jpg'">
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/12.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/12.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/13.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/13.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/14.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/14.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/15.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/15.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/7.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/7.after-th.jpg"
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/2.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/2.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/2.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/2.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/3.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/3.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/3.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/3.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/4.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/4.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/4.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/4.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/5.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/5.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/5.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/5.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/8.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/8.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/8.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/8.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/9.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/9.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/9.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/9.after-th.jpg'">
                                 </a>
 
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/11.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/11.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/11.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/11.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/10.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/10.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/10.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/10.after-th.jpg'">
                                 </a>
 
                                 <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/6.after.jpg">
                                     <img class="imgtabbed" src="<?php echo $url; ?>/images/6.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/6.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/6.after-th.jpg'">
                                 </a>
 
-                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/7.after.jpg">
-                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/7.after-th.jpg"
-                                         onmouseover="this.src='<?php echo $url; ?>/images/7.before-th.jpg'"
-                                         onmouseout="this.src='<?php echo $url; ?>/images/7.after-th.jpg'">
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images/1.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images/1.after-th.jpg">
                                 </a>
-
-
-                            </div><!-- your-tab-id-1 -->
-                            <div id="your-tab-id-2">
-                                Some content tab 2
                             </div><!-- your-tab-id-2 -->
+                            <div id="your-tab-id-3">
+                                <div class="txt-1"> ** Hover to Image to show After Effects </div>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/1.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/1.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/2.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/2.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/3.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/3.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/4.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/4.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/5.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/5.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/6.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/6.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/7.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/7.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/8.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/8.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/9.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/9.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/10.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/10.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/11.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/11.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/12.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/12.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/13.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/13.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/14.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/14.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/15.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/15.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/16.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/16.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/17.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/17.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/18.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/18.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/19.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/19.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/20.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/20.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/21.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/21.after-th.jpg"
+                                </a>
+
+                                <a class="magnifier-jigen" href = "<?php echo $url; ?>/images-digital/22.after.jpg">
+                                    <img class="imgtabbed" src="<?php echo $url; ?>/images-digital/22.after-th.jpg"
+                                </a>
+                            </div><!-- your-tab-id-3 -->
                         </div><!-- /.content_holder -->
                     </div><!-- /.tabs_holder -->
 
