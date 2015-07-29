@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
-	<title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
+	<!-- <title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title> -->
+    <title>Red Rocket Digital</title>
 	<meta charset="<?php bloginfo('charset'); ?>">
     <?php if (replican_get_option('replican_favicon') != '') { ?>
     <link rel="icon" href="<?php echo replican_get_option('replican_favicon'); ?>" type="image/x-icon">

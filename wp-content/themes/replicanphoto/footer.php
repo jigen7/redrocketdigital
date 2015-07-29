@@ -19,8 +19,9 @@
 		<?php } else {} ?>
         </ul>
     <div class="privacy pull-left">
-	<p><a href="<?php echo esc_url( __( 'http://smallenvelop.com/blog/', 'replican' ) ); ?>" title="<?php esc_attr_e( 'Replican Photography Wordpress Theme', 'replican' ); ?>"><?php printf( __( 'Replican ', 'replican' ) ); ?></a><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'replican' ) ); ?>" title="<?php esc_attr_e( 'WordPress', 'replican' ); ?>"><?php printf( __( 'Proudly powered by %s', 'replican' ), 'WordPress' ); ?></a>
-	</p>
+     <p>
+         <a href="<? echo home_url();?>/terms-and-condition/" >Terms & Condition</a>
+     </p>
 	</div>
   </div>
     </footer>

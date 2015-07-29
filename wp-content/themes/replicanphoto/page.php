@@ -29,14 +29,14 @@ get_header();
             </li> 
 <?php endwhile; ?>
                    <!-- ************ Comment starts ********** -->
-                <?php comments_template(); ?>
+                <?php //comments_template(); ?>
                 <!-- *********** Comment Ends**************- -->
                 <!-- *********Post loop ends************ --> 
                                  
           </ul>
           </div>  
         </article>
-        <?php  get_sidebar(); ?>
+        <?php  //get_sidebar(); ?>
       </div>
      </div>
   </div>

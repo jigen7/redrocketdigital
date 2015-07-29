@@ -1088,7 +1088,8 @@ margin-left: 0px;
 /*--- content end ------*/
 /*------ footer ------- */
 footer {
-  padding: 51px 0 40px;
+  /*padding: 51px 0 40px;*/
+    padding: 30px;
 }
 .privacy {
   color: #1a1a1a;
